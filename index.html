@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURIO</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const target = document.querySelector(this.getAttribute('href'));
+
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    });
+</script>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Logos/curio-15-licht-groen-logo-rgb.png" alt="Curio Logo">
+            </div>
+            <div class="links">
+                <a href="#VAKKEN">ROOSTER</a>
+                <a href="#rooster">VAKKEN</a>
+                <a href="#DOCENTEN">DOCENTEN</a>
+                <a href="#BLOKKEN">BLOKKEN</a>
+                <a
+                    href="https://educurio.sharepoint.com/sites/Studentenportaal/Gedeelde%20documenten/Forms/AllItems.aspx?csf=1&web=1&e=Varbex&CID=4fcbb839%2Dcc5d%2D4eb7%2D9036%2Defd46a186fe0&FolderCTID=0x012000481A07D76CB75C438F085ADC21E65D69&id=%2Fsites%2FStudentenportaal%2FGedeelde%20documenten%2FVersnellen%2Dvertragen%2FCURIO%5FPFO%5Finvulformulier%20versnellen%5Fv1%2E2%2Epdf&parent=%2Fsites%2FStudentenportaal%2FGedeelde%20documenten%2FVersnellen%2Dvertragen">VERSNELLEN</a>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="main-location">
+            <img src="Fotos_locaties/Sanne Bas - Curio - Terheijdenseweg 350-2.jpg" alt="Curio">
+            <div class="centered">
+                <h1>Welkom bij Curio - Software Development! <br>Op deze opleiding leer je alles over verschillende
+                    programmeertalen en technieken! <br>
+                    Je leert om programma's te schrijven in Python, C#, Java en nog meer talen! <br>Ook leer je om
+                    websites in elkaar te zetten met HTML, CSS, PHP, Javascript en Laravel! Kijk rond op deze site
+                    om meer te weten te komen over de opleiding!</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="VAKKEN">
+        <div class="title">
+            <h1>ROOSTER</h1>
+        </div>
+        <div class="schedule-description">
+            <div class="schedule">
+                <img src="img/rooster.png" alt="Rooster">
+            </div>
+            <div class="description">
+                <p>Het rooster van de Curio Software Opleiding is ontworpen met het oog op efficiëntie en maximale
+                    leertijd. Tussenuren behoren tot het verleden, wat betekent dat studenten een volledige dag les
+                    hebben, met alleen de broodnodige pauzes ertussen. Deze strakke planning zorgt ervoor dat elke dag
+                    optimaal wordt benut, en het kan variëren van dag tot dag. Iedere student krijgt ongeveer om de zes
+                    maanden een nieuw rooster voorgeschoteld, wat zorgt voor variatie en flexibiliteit in het
+                    leerproces.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="rooster">
+        <div class="title">
+            <h1>VAKKEN</h1>
+        </div>
+        <div class="classes">
+            <div class="web">
+                <img src="img/Web.jpg" alt="Web">
+                <p><b>WEB</b><br>Je leert websites maken met HTML, CSS, JavaScript en PHP.</p>
+            </div>
+            <div class="web">
+                <img src="img/Native.jpg" alt="Native">
+                <p><b>NATIVE</b><br>Je leert apps maken voor de micro:bit en Windows.</p>
+            </div>
+        </div>
+        <div class="classes2">
+            <div class="web">
+                <img src="img/Pra.jpg" alt="Pra">
+                <p><b>PRA</b><br>Deze lessen lijken op het echte werk. Je gaat aan de slag met opdrachten die je ook
+                    in het bedrijfsleven tegenkomt.</p>
+            </div>
+            <div class="web">
+                <img src="img/PRO.jpg" alt="Pro">
+                <p><b>PRO</b><br>Deze lessen lijken op het echte werk. Je gaat aan de slag met opdrachten die je ook
+                    in het bedrijfsleven tegenkomt.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="DOCENTEN">
+        <div class="title">
+            <h1>DOCENTEN</h1>
+        </div>
+        <div class="docenten">
+            <div class="docent-foto">
+                <div class="elton">
+                    <img src="img/docent.jpg" alt="Elton">
+                    <p><b>Elton</b><br> Web Development</p>
+                </div>
+                <div class="michel">
+                    <img src="img/docent.jpg" alt="Michel">
+                    <p><b>Michel</b><br> Rekenen en PRO</p>
+                </div>
+                <div class="steven">
+                    <img src="img/docent.jpg" alt="Wiro">
+                    <p><b>Wiro</b><br> Rekenen</p>
+                </div>
+                <div class="bart">
+                    <img src="img/docent.jpg" alt="Bart">
+                    <p><b>Bart</b><br> Web Development en Delta</p>
+                </div>
+                <div class="tim">
+                    <img src="img/docent.jpg" alt="Corne">
+                    <p><b>Corne</b><br> Native</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="BLOKKEN">
+        <div class="title">
+            <h1>BLOKKEN</h1>
+        </div>
+        <div class="blokken-container">
+            <div class="blokken-img">
+                <img src="img/blokken.png" alt="Blokken">
+            </div>
+            <div class="blokken-desc">
+                <p>Tijdens je opleiding tot Software Developer werk je frequent in teamverband. Je leert hoe je
+                    projecten
+                    organiseert om applicaties te ontwikkelen en houdt te allen tijde de functionaliteit van je apps en
+                    software
+                    in de gaten. In het eerste jaar van de opleiding leg je vooral de basis van programmeer- en
+                    opmaaktalen. In
+                    het tweede jaar ga je aan de slag met frameworks die veelvuldig worden gebruikt door bedrijven,
+                    zoals
+                    Laravel, Vue, React, Xamarin en Bootstrap. Naast specifieke vakgerichte kennis krijg je ook algemene
+                    vakken
+                    zoals Nederlands, Engels, rekenen, loopbaanoriëntatie en burgerschap. Als je nieuwsgierig bent naar
+                    hoe het
+                    is om te studeren aan het mbo, kun je je aanmelden voor een meeloopdag bij het mbo van jouw keuze.
+                    Op zo'n
+                    dag krijg je een authentieke ervaring van het mbo en het studentenleven. Je woont lessen bij en
+                    ontmoet
+                    medestudenten. Dat is een geweldige manier om te ontdekken of een mbo-opleiding bij jou past.</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
